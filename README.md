@@ -41,17 +41,20 @@ $ catkin_make
 ## Step 6 
 type in the following commands
 ```
-cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/
-git clone 
+$ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/
+$ git clone 
 ```
 ## Step 7 
-Install VSocde or any text editor of your choice, though i would suggest VScode, to install vscode type in this command 
+Now type in the following commands
 ```
-$ sudo snap install --classic code
+$ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
+$ cp CMakeLists.txt /home/rajat/catkin_ws/src/ros_essentials_cpp/CMakeLists.txt
+$ cp objectdetection.msg /home/rajat/catkin_ws/src/ros_essentials_cpp/objectdetection.msg
 ```
 ## Step 8 
 Open terminal, and type in the following command
 ```
+$ catkin_make
 $ roscore
 ```
 ## Step 9
