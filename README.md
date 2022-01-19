@@ -4,7 +4,7 @@ This repository is for implementing object detection on a simple turtlebot in RO
 
 ## Step1
 
-Install ROS on you computer, ROS noetic would be most preferable. To install ROS refer to this link [http://wiki.ros.org/noetic/Installation/Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu), make sure that you install all the mentioned dependencies on the site as well. also it wouid be preferable to install the full version of ROS.
+Install ROS on you computer, ROS noetic would be most preferable. To install ROS refer to this link [http://wiki.ros.org/noetic/Installation/Ubuntu](http://wiki.ros.org/noetic/Installation/Ubuntu), make sure that you install all the mentioned dependencies. also it wouid be preferable to install the full version of ROS.
 
 ## Step2
 
