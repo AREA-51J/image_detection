@@ -41,15 +41,15 @@ $ catkin_make
 ## Step 6 
 type in the following commands
 ```
-$ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/
+$ cd ~/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/
 $ git clone 
 ```
 ## Step 7 
 Now type in the following commands
 ```
-$ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
-$ cp CMakeLists.txt /home/rajat/catkin_ws/src/ros_essentials_cpp/CMakeLists.txt
-$ cp objectdetection.msg /home/rajat/catkin_ws/src/ros_essentials_cpp/objectdetection.msg
+$ cd ~/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
+$ cp CMakeLists.txt ~/catkin_ws/src/ros_essentials_cpp/CMakeLists.txt
+$ cp objectdetection.msg ~/catkin_ws/src/ros_essentials_cpp/objectdetection.msg
 ```
 ## Step 8 
 Open terminal, and type in the following command
@@ -62,7 +62,7 @@ Open another 3 terminals parallely, and type in the following commands individua
  
  on terminal 1:
  ```
-$ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
+$ cd ~/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
 $ rosrun ros_essentials_cpp test.py
 ```
  on terminal 2:
@@ -71,7 +71,7 @@ $ rosrun turtlesim turtlesim_node
 ```
  on terminal 3:
  ```
- $ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
+ $ cd ~/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
  $ rosrun ros_essentials_cpp turtlesim_cleaner.py 
  ```
  ## Conclusion
