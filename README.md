@@ -61,11 +61,14 @@ Open another 3 terminals parallely, and type in the following commands individua
  ```
 $ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
 $ rosrun ros_essentials_cpp test.py
-
+```
  on terminal 2:
+ ```
 $ rosrun turtlesim turtlesim_node
- 
+```
  on terminal 3:
+ ```
+ $ cd /home/rajat/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
  $ rosrun ros_essentials_cpp turtlesim_cleaner.py 
  ```
  ## Conclusion
