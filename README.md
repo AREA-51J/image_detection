@@ -10,7 +10,7 @@ Install ROS on you computer, ROS noetic would be most preferable. To install ROS
 
 Next step is to source the setup.bash file located in the ros installation file, to do this open your terminal and type the following command ,
 $sudo gedit .bashrc
-go to the end of this text file and paste the text line given below, 
+go to the end of this text file and paste the text line given below
 source /opt/ros/noetic/setup.bash.
 
 ## Step 3 
