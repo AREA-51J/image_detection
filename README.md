@@ -24,9 +24,10 @@ once you have done that, type in the following command,
 ```
 $ sudo gedit .bashrc 
 ```
-as explained in Step2 you need to paste another text line in the text file, that text line is given below,   
-source devel/setup.bash
-
+as explained in Step2 you need to paste another text line in the text file, that text line is given below,
+```
+source ~/catkin_ws/devel/setup.bash
+```
 ## Step 4 
 Now you need to clone another repository, the link to the repo is [https://github.com/aniskoubaa/ros_essentials_cpp](https://github.com/aniskoubaa/ros_essentials_cpp), to clone this, type in the following commands on your terminal.
 ```
