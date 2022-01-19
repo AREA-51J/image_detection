@@ -43,7 +43,7 @@ $ catkin_make
 type in the following commands
 ```
 $ cd ~/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/
-$ git clone 
+$ git clone https://github.com/AREA-51J/image_detection.git
 ```
 ## Step 7 
 Now type in the following commands
