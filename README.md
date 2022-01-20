@@ -51,6 +51,7 @@ $ git clone https://github.com/AREA-51J/image_detection.git
 Now type in the following commands
 ```
 $ cd ~/catkin_ws/src/ros_essentials_cpp/src/topic03_perception/image_detection
+$ cp turtlesim_cleaner.py ~/catkin_ws/src/ros_essentials_cpp/src/topic02_motion/turtlesim/turtlesim_cleaner.py
 $ cp CMakeLists.txt ~/catkin_ws/src/ros_essentials_cpp/CMakeLists.txt
 $ cp objectdetection.msg ~/catkin_ws/src/ros_essentials_cpp/objectdetection.msg
 ```
