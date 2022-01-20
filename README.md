@@ -1,4 +1,4 @@
-# Repository for implementing object detection in ROS 
+# Repository for implementing object detection in ROS using tensorflow 1.15
 ## Introduction
 This repository is for implementing object detection on a simple turtlebot in ROS.
 
